@@ -85,8 +85,8 @@ with open(file_to_save, "w") as txt_file:
         f"\nElection Results\n"
         f"-------------------------\n"
         f"Total Votes: {total_votes:,}\n"
-        f"-------------------------\n\n"
-        f"County Votes: {county_votes}\n")
+        f"-------------------------\n\n")
+        
     print(election_results, end= "")
 
     txt_file.write(election_results)
@@ -142,7 +142,7 @@ with open(file_to_save, "w") as txt_file:
             # terminal.
         print(candidate_results)
                 #  Save the candidate results to our text file.
-        txt_file.write: str(candidate_results)
+        txt_file.write:str(candidate_results)
 
         # Determine winning vote count, winning percentage, and candidate.
         if (votes > winning_candidate_votes):
@@ -151,7 +151,7 @@ with open(file_to_save, "w") as txt_file:
             winning_percentage = vote_percentage
 
     # Print the winning candidate (to terminal)S
-    print(winning_candidate)
+    
     winning_candidate_summary = (
         f"-------------------------\n"
         f"Winner: {winning_candidate}\n"
