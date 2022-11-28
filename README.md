@@ -1,13 +1,9 @@
 # Election_Analysis
-
+The purpose of the election was to find the winning candidate and winning county for the election.  There were only 3 candidates in the election race from 3 difference counties.   Overall there were 369,711 votes cast.   
 ##Project Overview
 Election results by Candidate
 
-1. Calculate votes
-2. Get candidate list 
-3. Calculate votes per candidate
-4. Calculate percentage of votes per candidate
-5. Determine winner of the election based on percentage of votes
+There were 369,711 total votes cast in the election.   Charles Casper Stockham, Diana DeGette and Raymon Anthony Doane were the running candidates.  The votes were from 3 counties, Jefferson, Denver and Arapahoe. Denver had the highest amount of votes with 306,055 and won with 82.8% of the votes.  Jefferson had 38,855 votes at 10.5% and Arapahoe only had 6.7% of the votes for a total of 24,801.  Diana DeGette was the winner of the election with a majority of the votes with 272,892, 82.8%.   Charles Casper Stockham came in at 23% of with 85,213 votes and Raymon Anthony Doane finished with 3.1% of the vote with 11,606 votes.   
 
 ##Resources
 -election_results.csv
@@ -31,6 +27,6 @@ The winning county was
 -Denver county resulted in 306,055 of the votes at 82% 
 
 ##Challenge Overview
-Now that the code has been developed it can be used in other elections to produce the results of the election.   
+Now that the code has been developed it can be used in other elections to produce the results of the election.  
 
 
